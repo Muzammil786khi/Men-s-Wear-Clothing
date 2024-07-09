@@ -1,0 +1,66 @@
+@font-face{
+    font-family: xyz;
+    src: url(BlackOpsOne-Regular.ttf);
+}
+body{
+    background-image: url(oooooo.jpg);
+}
+
+
+header{
+    background-color: skyblue;
+    margin-bottom: 100px;
+}
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+li a:hover{
+    color: #666;
+}
+li h1{
+    color: rgb(0, 180, 54);
+    font-size: 75px;
+    font-family: xyz;
+}
+.p>img{
+
+    width: 100px;
+    height: 100px;
+}
+
+.p{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: antiquewhite;
+    text-align: center;
+    width: 150px;
+    height: 300px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 40px;
+    margin: 10px;
+    }
+.p:hover{
+
+    box-shadow: 12px 10px 10px rgb(207, 197, 197);
+    
+    
+}
